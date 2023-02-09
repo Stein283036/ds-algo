@@ -173,7 +173,8 @@ public class DynamicArray<E> implements Iterable<E> {
 
 		System.out.println(names.getSize());
 
-		names.remove(0);
+		String remove = names.remove(0);
+		System.out.println("remove = " + remove);
 
 		for (String name : names) {
 			System.out.println(name);
